@@ -9,7 +9,8 @@ namespace primerTpAlgo2_actII
     internal class Program
     {
         static void Main(string[] args)
-        {            
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             double mayor = 0;
             int num = 1;
             double numero = 0;
@@ -54,6 +55,9 @@ namespace primerTpAlgo2_actII
                 Console.WriteLine($"\nEl número mayor que se ingreso fue: {mayor} y se repitió {cantMayor} veces.");
                 
             }
+            Console.WriteLine("Hasta luego! :)");
+            Console.ResetColor();
+
             Console.ReadKey();
 
 
